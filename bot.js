@@ -25,7 +25,7 @@ client.on('ready', () => {
     client.user.setStatus("idle")
 });
 
-const prefix = "aa"
+const prefix = "v"
 client.on('message', async msg => { // eslint-disable-line
 	if (msg.author.bot) return undefined;
 	//by ,$ ReBeL ء , 🔕#4777 'CODES SERVER'
@@ -263,7 +263,7 @@ ${prefix}queue ⇏ لمعرفة قآئمة التشغيل
    }
    }); 
 client.on('message', function(message) {
-	const myID = "465271161421430794";
+	const myID = "405706443539611648";
     let args = message.content.split(" ").slice(1).join(" ");
     if(message.content.startsWith(prefix + "setnamebot")) {
 		        if(message.author.id !== myID) return;
