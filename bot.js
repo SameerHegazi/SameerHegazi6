@@ -263,7 +263,7 @@ ${prefix}queue ⇏ لمعرفة قآئمة التشغيل
    }
    }); 
 client.on('message', function(message) {
-	const myID = "405706443539611648";
+	const myID = "251663317570027520";
     let args = message.content.split(" ").slice(1).join(" ");
     if(message.content.startsWith(prefix + "setnamebot")) {
 		        if(message.author.id !== myID) return;
