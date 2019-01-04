@@ -1,9 +1,5 @@
 
 const Discord = require('discord.js');
-const moment = require("moment");
-const fs = require("fs");
-const client = new Discord.Client();
-
 client.on('message', message => {
   var prefix = "#"; 
   
@@ -19,8 +15,6 @@ if (command === "say") {
 message.delete()
   message.channel.sendMessage(args.join(" ")).catch(console.error);
 }
-
-
 
 
 client.login(process.env.BOT_TOKEN);
