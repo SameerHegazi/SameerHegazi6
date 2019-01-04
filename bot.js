@@ -15,6 +15,6 @@ if (command === "say") {
 message.delete()
   message.channel.sendMessage(args.join(" ")).catch(console.error);
 }
-
+});
 
 client.login(process.env.BOT_TOKEN);
